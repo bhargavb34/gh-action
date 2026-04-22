@@ -7,7 +7,6 @@ jobs:
       - name: Print Greeting
         run: | 
           echo "Hello World"
-          sh "pwd"
-          sh "ls -la"
+          echo "new line"
       - name: Print Goodbye
         run: echo "Done - bye"
